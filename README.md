@@ -22,12 +22,22 @@ This dataset consists of 15 features that are:
  14) brand  
  15) product_specifications  
   
-## About this repo  
+## About this Repository:  
 Task 3: NLP
 Assignment Details-
 Use a given dataset to build a model to predict the category using description. Write code in python. Using Jupyter notebook is encouraged.  
   
 About Data : You have to clean this data, In the product category tree separate all the categories, figure out the primary category, and then use the model to predict this.  
 
-## Strategy used  
-
+## Strategy:  
+1) Read the data through the given csv file.  
+2) Data Cleaning. [Remove duplicates items, Drop rows with null values]  
+3) Save the obtained data to pickle file.  
+4) Separate the primary category from the product category tree.  
+5) Text pre-processing.  
+6) Splitting data into train and test data.  
+7) Featurization. [BAG OF WORDS, TF-IDF]  
+8) Apply NaiveBayes classifiers.  
+9) Compare model score of BOW and TF_IDF vectorizer.  
+10) Predict product category.  
+  
